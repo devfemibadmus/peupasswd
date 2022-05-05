@@ -1,5 +1,4 @@
 
-        <div class="content">
         <h1 class="peupasswd">Peupasswd: Advanced Password Manager</h1>
         <p><span class="peupasswd">peupasswd</span> is an advanced security software use in generating uniques password for each of each service i.e you can generate special password for each of your social media or services with just one master password.</p>
     
