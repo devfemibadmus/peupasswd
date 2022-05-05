@@ -17,3 +17,7 @@
 <li>Now click generate to generate the unique password. you can always generate the same password later by simply giving the same master password and service name. but no one could generate the same password as long as you dont share your master password to anyone. this is why I call it in-Brain password manager.</li>
 </ol>
 <img src="src/images/peupasswd.jpg"/>
+<br>
+<p>
+<a href="https://github.com/devfemibadmus">contact me</a>
+</p>
