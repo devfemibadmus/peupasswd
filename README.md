@@ -1,7 +1,7 @@
 
  
 <h1>Peupasswd: Advanced Password Manager</h1>
-<p><a href="https://devfemibadmus.herokuapp.com/peupasswd">peupasswd</a> is an advanced security software written in python use in generating uniques password for each of each service i.e you can generate special password for each of your social media or services with just one master password; see also <a href="https://github.com/kcubeterm/neupasswd">neupasswd</a></p>
+<p><a href="https://devfemibadmus.herokuapp.com/peupasswd">peupasswd</a> is an advanced security software written in python use in generating unique password for each of each service i.e you can generate special password for each of your social media or services with just one master password; see also <a href="https://github.com/kcubeterm/neupasswd">neupasswd</a></p>
 
 <h2>How It Works</h1>
 <p><a href="https://devfemibadmus.herokuapp.com/peupasswd">peupasswd</a> takes in a master password, the service name you wanna use the password for and the length of the password u want(never worry about the length you can choose as much as possible you dont need to cram it). Then it encrypt the master password in a way you can nerver guess of. Also you can retrieve/check ur passwordagain by doing same way.</p>
