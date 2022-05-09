@@ -13,8 +13,8 @@
 <li>Enter the length you want ur password to be.</li>
 <li>Now click generate to generate the unique password. you can always generate the same password later by simply giving the same master password and service name. but no one could generate the same password as long as you dont share your master password to anyone. this is why I call it Advanced Password Security Software.</li>
 </ol>
-<img align="center" src="src/images/peupasswd.png"/>
+<img src="src/images/peupasswd.png"/>
 <br>
 <p>
-<a href="https://github.com/devfemibadmus">contact me</a>
+<a href="https://devfemibadmus/peupasswd#download>Download source  code</a>
 </p>
