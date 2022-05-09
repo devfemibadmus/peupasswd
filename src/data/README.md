@@ -16,5 +16,5 @@
 <img src="src/images/peupasswd.png"/>
 <br>
 <p>
-<a href="https://devfemibadmus/peupasswd#download>Download source  code</a>
+<a href="https://devfemibadmus/peupasswd#download">Download source code</a>
 </p>
