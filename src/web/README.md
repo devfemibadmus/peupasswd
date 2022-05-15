@@ -17,7 +17,7 @@
 <br>
 <img src="src/images/exam2.png"/>
 <br>
-<img src="src/images/dfb.png"/>
+<img src="src/images/dfb.jpg"/>
 <br>
 <img src="src/images/peupasswd.png"/>
 <br>
