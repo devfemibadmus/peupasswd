@@ -14,7 +14,8 @@ pip install peupasswd
 ```
  
 ```
-print(peupasswd("master-password", "instagram", 15))
+from peupasswd import peupasswd
+print(peupasswd("master password", "instagram", 12))
 ```
 
 ## Running on web

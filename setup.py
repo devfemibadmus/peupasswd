@@ -1,29 +1,23 @@
-import setuptools
-from setuptools import setup, find_packages
+from setuptools import setup
 import codecs
 import os
 
 
-here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "Readme.md"), encoding="utf-8") as fh:
+with codecs.open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "Readme.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.0.0'
-DESCRIPTION = 'A password security software'
-LONG_DESCRIPTION = 'A password security software use in generating unique password for each of each service i.e you can generate special password for each of your social media or services with just one master password'
 
 # Setting up
 setup(
     name="peupasswd",
-    version=VERSION,
+    version='1.0.1.2',
     author="blackstackhub (Black Stack Hub)",
     author_email="<blackstackhub@gmail.com>",
-    description=DESCRIPTION,
+    description='A password security software',
     long_description_content_type="text/markdown",
     long_description=long_description,
-    packages=find_packages(),
-    install_requires=[],
+    packages=["peupasswd"],
     keywords=['peupasswd', 'security', 'password security', 'neupasswd', 'encryption'],
     classifiers=[
         "Development Status :: 1 - Planning",

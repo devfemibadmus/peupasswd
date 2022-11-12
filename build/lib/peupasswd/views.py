@@ -1,4 +1,4 @@
-from pencryptor import pencryptor
+from .pencryptor import pencryptor
 
 def peupasswd(master_passwd: str, service_name: str, passwd_length: int):
     list = [master_passwd, service_name, passwd_length]

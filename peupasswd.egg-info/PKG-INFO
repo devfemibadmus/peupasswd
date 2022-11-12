@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: peupasswd
-Version: 1.0.0
+Version: 1.0.1.2
 Summary: A password security software
 Author: blackstackhub (Black Stack Hub)
 Author-email: <blackstackhub@gmail.com>
@@ -30,7 +30,8 @@ pip install peupasswd
 ```
  
 ```
-print(peupasswd("master-password", "instagram", 15))
+from peupasswd import peupasswd
+print(peupasswd("master password", "instagram", 12))
 ```
 
 ## Running on web
