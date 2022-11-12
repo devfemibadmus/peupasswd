@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: peupasswd
+Version: 1.0.0
+Summary: A password security software
+Author: blackstackhub (Black Stack Hub)
+Author-email: <blackstackhub@gmail.com>
+Keywords: peupasswd,security,password security,neupasswd,encryption
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+<h1><strong>Peupasswd</strong> Advanced Password Security Software</h1>
+<p><a href="https://blackstackhub.github.io/Peupasswd" >Peupasswd</a> is an advanced password security software written in python use in generating unique password for each of each service i.e you can generate special password for each of your social media or services with just one master password; see also <a href="https://github.com/kcubeterm/neupasswd">neupasswd</a></p>
+    
+    
+<h2>How It Works</h2>
+<p><a href="https://blackstackhub.github.io/Peupasswd">Peupasswd</a> takes in a master password, the service name you wanna use the password for and the length of the password u want(never worry about the length you can choose as much as possible you dont need to cram it). Then it encrypt the master password in a way you can nerver guess of. Also you can retrieve/check ur password again by doing same way.</p>
+    
+
+<h2>How to:-</h2>
+
+## Install through pip
+```
+pip install peupasswd
+```
+ 
+```
+print(peupasswd("master-password", "instagram", 15))
+```
+
+## Running on web
+```
+https://blackstackhub.github.io/Peupasswd
+```
