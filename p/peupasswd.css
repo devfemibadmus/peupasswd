@@ -1,0 +1,75 @@
+.all {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: green;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+body {
+    background-image: url("peupasswd.png");
+    background-size: contain;
+}
+
+.container {
+    border: 3px solid green;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+#peupasswd input,
+#peupasswd input:focus {
+    border-bottom: 2px solid green;
+    padding-top: 20px;
+}
+
+h3,
+h2,
+h1 {
+    color: yellow;
+}
+
+#result {
+    color: white;
+}
+
+#peupasswd input[type=submit] {
+    background-color: green;
+    color: yellow;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+ul a {
+    color: inherit;
+}
+
+.fa {
+    color: yellow;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgba(255, 255, 0, 0.356);
+    color: white;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover,
+#peupasswd input[type=submit]:hover {
+    background-color: rgba(0, 128, 0, 0.836);
+}
+
+.red {
+    color: red;
+}

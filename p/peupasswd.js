@@ -1,7 +1,6 @@
-88
-# Create your views here.'/
-def pencryptor(passwd, service, plength):
-    ftwrd = [
+
+function peupasswd(passwd, service, plength){
+    const ftwrd = [
                 'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap', 'aq', 'ar', 'as', 'at', 'au', 'av', 'aw', 'ax', 'ay', 'az', 'aA', 'aB', 'aC', 'aD',
                 'aE', 'aF', 'aG', 'aH', 'aI', 'aJ', 'aK', 'aL', 'aM', 'aN', 'aO', 'aP', 'aQ', 'aR', 'aS', 'aT', 'aU', 'aV', 'aW', 'aX', 'aY', 'aZ', 'ba', 'bb', 'bc', 'bd', 'be', 'bf', 'bg', 'bh', 'bi',
                 'bj', 'bk', 'bl', 'bm', 'bn', 'bo', 'bp', 'bq', 'br', 'bs', 'bt', 'bu', 'bv', 'bw', 'bx', 'by', 'bz', 'bA', 'bB', 'bC', 'bD', 'bE', 'bF', 'bG', 'bH', 'bI', 'bJ', 'bK', 'bL', 'bM', 'bN',
@@ -89,8 +88,8 @@ def pencryptor(passwd, service, plength):
                 'Yd', 'Ye', 'Yf', 'Yg', 'Yh', 'Yi', 'Yj', 'Yk', 'Yl', 'Ym', 'Yn', 'Yo', 'Yp', 'Yq', 'Yr', 'Ys', 'Yt', 'Yu', 'Yv', 'Yw', 'Yx', 'Yy', 'Yz', 'YA', 'YB', 'YC', 'YD', 'YE', 'YF', 'YG', 'YH',
                 'YI', 'YJ', 'YK', 'YL', 'YM', 'YN', 'YO', 'YP', 'YQ', 'YR', 'YS', 'YT', 'YU', 'YV', 'YW', 'YX', 'YY', 'YZ', 'Za', 'Zb', 'Zc', 'Zd', 'Ze', 'Zf', 'Zg', 'Zh', 'Zi', 'Zj', 'Zk', 'Zl', 'Zm',
                 'Zn', 'Zo', 'Zp', 'Zq', 'Zr', 'Zs', 'Zt', 'Zu', 'Zv', 'Zw', 'Zx', 'Zy', 'Zz', 'ZA', 'ZB', 'ZC', 'ZD', 'ZE', 'ZF', 'ZG', 'ZH', 'ZI', 'ZJ', 'ZK', 'ZL', 'ZM', 'ZN', 'ZO', 'ZP', 'ZQ', 'ZR',
-                'ZS', 'ZT', 'ZU', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']
-    ntwrd = [
+                  'ZS', 'ZT', 'ZU', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']
+    const ntwrd = [
                 'zG', 'zH', 'zI', 'zJ', 'zK', 'zL', 'zM', 'zN', 'zO', 'zP', 'zQ', 'zR', 'zS', 'zT', 'zU', 'zV', 'zW', 'zX', 'zY', 'zZ', 'Aa', 'Ab', 'Ac', 'Ad', 'Ae', 'Af', 'Ag', 'Ah', 'Ai', 'Aj', 'Ak',
                 'Al', 'Am', 'An', 'Ao', 'Ap', 'Aq', 'Ar', 'As', 'At', 'Au', 'Av', 'Aw', 'Ax', 'Ay', 'Az', 'AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'AM', 'AN', 'AO', 'AP',
                 'AQ', 'AR', 'AS', 'AT', 'AU', 'AV', 'AW', 'AX', 'AY', 'AZ', 'Ba', 'Bb', 'Bc', 'Bd', 'Be', 'Bf', 'Bg', 'Bh', 'Bi', 'Bj', 'Bk', 'Bl', 'Bm', 'Bn', 'Bo', 'Bp', 'Bq', 'Br', 'Bs', 'Bt', 'Bu',
@@ -177,17 +176,17 @@ def pencryptor(passwd, service, plength):
                 'xR', 'xS', 'xT', 'xU', 'xV', 'xW', 'xX', 'xY', 'xZ', 'ya', 'yb', 'yc', 'yd', 'ye', 'yf', 'yg', 'yh', 'yi', 'yj', 'yk', 'yl', 'ym', 'yn', 'yo', 'yp', 'yq', 'yr', 'ys', 'yt', 'yu', 'yv',
                 'yw', 'yx', 'yy', 'yz', 'yA', 'yB', 'yC', 'yD', 'yE', 'yF', 'yG', 'yH', 'yI', 'yJ', 'yK', 'yL', 'yM', 'yN', 'yO', 'yP', 'yQ', 'yR', 'yS', 'yT', 'yU', 'yV', 'yW', 'yX', 'yY', 'yZ', 'za',
                 'zb', 'zc', 'zd', 'ze', 'zf', 'zg', 'zh', 'zi', 'zj', 'zk', 'zl', 'zm', 'zn', 'zo', 'zp', 'zq', 'zr', 'zs', 'zt', 'zu', 'zv', 'zw', 'zx', 'zy', 'zz', 'zA', 'zB', 'zC', 'zD', 'zE', 'zF',
-                'ZS', 'ZT', 'ZU', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']
-    ypasswd = [
+                  'ZS', 'ZT', 'ZU', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']
+    const ypasswd = [
             'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
             'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ',
-            '!', '@', '#', '$', '%', 'J', '^', '&', '*', '(', ')', 'E', '_', 'F', '-', '+', '=', '{', '[', '}', ']', 'D', ':', ';', '<', 'I', '>', '?', '~', '/', 'L', '\\', '|', '.']
-    epasswd = [
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
+                   '!', '@', '#', '$', '%', 'J', '^', '&', '*', '(', ')', 'E', '_', 'F', '-', '+', '=', '{', '[', '}', ']', 'D', ':', ';', '<', 'I', '>', '?', '~', '/', 'L', '\\', '|', '.']
+    const epasswd = [
             'r', 'A', '|', '*', 9, 'y', 'P', '.', 'w', 'S', '%', 's', '-', 'k', '[', 'x', 'V', '{', 'n', '+', '$', 'N', 'i', 5, ')', 'Q', 'e', '<', 'k', 'W', '^', 'O', 'b', 'R', '>', 'd', 'Z', 4, '?',
             'c', 'T', '=', 'b', 7, '_', 'v', '~', 'C', 'f', 3, 'j', '&', 'M', 'h','/', 'g', 1, 'K', 'B', '\\', 't', 'q', 0, ';', 'p', 'G', '!', 'a', 'X', ':', 2, 'H', '@', 'l', ']', 'z', 8, '}',
-            'm', '(', 'Y', 'o', 'U', '#', 6]
-    swrd  = [
+                   'm', '(', 'Y', 'o', 'U', '#', 6]
+    const swrd  = [
             'rr', 'rA', 'r|', 'r*', 'r9', 'ry', 'rP', 'r.', 'rw', 'rS', 'r%', 'rs', 'r-', 'rk', 'r[', 'rx', 'rV', 'r{', 'rn', 'r+', 'r$', 'rN', 'ri', 'r5', 'r)', 'rQ', 're', 'r<', 'rk', 'rW', 'r^', 'rO',
             'rb', 'rR', 'r>', 'rd', 'rZ', 'r4', 'r?', 'rc', 'rT', 'r=', 'rb', 'r7', 'r_', 'rv', 'r~', 'rC', 'rf', 'r3', 'rj', 'r&', 'rM', 'rh', 'r/', 'rg', 'r1', 'rK', 'rB', 'r\\', 'rt', 'rq', 'r0', 'r;',
             'rp', 'rG', 'r!', 'ra', 'rX', 'r:', 'r2', 'rH', 'r@', 'rl', 'r]', 'rz', 'r8', 'r}', 'rm', 'r(', 'rY', 'ro', 'rU', 'r#', 'r6', 'Ar', 'AA', 'A|', 'A*', 'A9', 'Ay', 'AP', 'A.', 'Aw', 'AS', 'A%',
@@ -412,8 +411,8 @@ def pencryptor(passwd, service, plength):
             '#!', '#a', '#X', '#:', '#2', '#H', '#@', '#l', '#]', '#z', '#8', '#}', '#m', '#(', '#Y', '#o', '#U', '##', '#6', '6r', '6A', '6|', '6*', '69', '6y', '6P', '6.', '6w', '6S', '6%', '6s', '6-', '6k',
             '6[', '6x', '6V', '6{', '6n', '6+', '6$', '6N', '6i', '65', '6)', '6Q', '6e', '6<', '6k', '6W', '6^', '6O', '6b', '6R', '6>', '6d', '6Z', '64', '6?', '6c', '6T', '6=', '6b', '67', '6_', '6v', '6~',
             '6C', '6f', '63', '6j', '6&', '6M', '6h', '6/', '6g', '61', '6K', '6B', '6\\', '6t', '6q', '60', '6;', '6p', '6G', '6!', '6a', '6X', '6:', '62', '6H', '6@', '6l', '6]', '6z', '68', '6}', '6m', '6(',
-            '6Y', '6o', '6U', '6#', '66']
-    qwrd  = [
+                  '6Y', '6o', '6U', '6#', '66']
+    const qwrd  = [
             'br', 'bA', 'b|', 'b*', 'b9', 'by', 'bP', 'b.', 'bw', 'bS', 'b%', 'bs', 'b-', 'bk', 'b[', 'bx', 'bV', 'b{', 'bn', 'b+', 'b$', 'bN', 'bi', 'b5', 'b)', 'bQ', 'be', 'b<', 'bk', 'bW', 'b^', 'bO',
             'bb', 'bR', 'b>', 'bd', 'bZ', 'b4', 'b?', 'bc', 'bT', 'b=', 'bb', 'b7', 'b_', 'bv', 'b~', 'bC', 'bf', 'b3', 'bj', 'b&', 'bM', 'bh', 'b/', 'bg', 'b1', 'bK', 'bB', 'b\\', 'bt', 'bq', 'b0', 'b;',
             'bp', 'bG', 'b!', 'ba', 'bX', 'b:', 'b2', 'bH', 'b@', 'bl', 'b]', 'bz', 'b8', 'b}', 'bm', 'b(', 'bY', 'bo', 'bU', 'b#', 'b6', 'Rr', 'RA', 'R|', 'R*', 'R9', 'Ry', 'RP', 'R.', 'Rw', 'RS', 'R%',
@@ -638,30 +637,41 @@ def pencryptor(passwd, service, plength):
             '^]', '^z', '^8', '^}', '^m', '^(', '^Y', '^o', '^U', '^#', '^6', 'Or', 'OA', 'O|', 'O*', 'O9', 'Oy', 'OP', 'O.', 'Ow', 'OS', 'O%', 'Os', 'O-', 'Ok', 'O[', 'Ox', 'OV', 'O{', 'On', 'O+', 'O$',
             'ON', 'Oi', 'O5', 'O)', 'OQ', 'Oe', 'O<', 'Ok', 'OW', 'O^', 'OO', 'Ob', 'OR', 'O>', 'Od', 'OZ', 'O4', 'O?', 'Oc', 'OT', 'O=', 'Ob', 'O7', 'O_', 'Ov', 'O~', 'OC', 'Of', 'O3', 'Oj', 'O&', 'OM',
             'Oh', 'O/', 'Og', 'O1', 'OK', 'OB', 'O\\', 'Ot', 'Oq', 'O0', 'O;', 'Op', 'OG', 'O!', 'Oa', 'OX', 'O:', 'O2', 'OH', 'O@', 'Ol', 'O]', 'Oz', 'O8', 'O}', 'Om', 'O(', 'OY', 'Oo', 'OU', 'O#', 'O6',
-            '6Y', '6o', '6U', '6#', '66']
-    npasswd = ""
-    for i in range(len(ftwrd)):
+                  '6Y', '6o', '6U', '6#', '66']
+    var npasswd = ""
+    
+    for(i=0; i<ftwrd.length; i++){
       passwd = passwd.replace(ftwrd[i], ntwrd[i])
-    #print(passwd)
-    plength = int(plength)
-    num = plength - len(passwd)
-    passwd = passwd + str(service) + str(passwd)
-    npasswd = ""
-    for txt in passwd:
-      ltxt = ypasswd.index(str(txt))
-      npasswd = npasswd + str(epasswd[ltxt])
+    }
 
-    for i in range(len(ftwrd)):
+
+    var num = plength - passwd.length
+    var passwd = passwd + service + passwd
+    var npasswd = ""
+    
+
+
+    for(i=0; i < passwd.length; i++){
+      ltxt = ypasswd.indexOf(passwd[i])
+      npasswd = npasswd + epasswd[ltxt]
+    }
+
+
+    for(i=0; i < ftwrd.length; i++){
       npasswd = npasswd.replace(ntwrd[i], ftwrd[i])
+    }
       
-    for i in range(len(ftwrd)):
+    for(i=0; i < ftwrd.length; i++){
       npasswd = npasswd.replace(ntwrd[i], ftwrd[i])
+    }
 
     passwd = ""
-    for i in range(plength):
-      passwd = passwd + str(npasswd[i])
+    for(i=0; i < plength; i++){
+      passwd = passwd + npasswd[i]
+    }
 
-    for i in range(len(swrd)):
+    for(i=0; i < swrd.length; i++){
       passwd = passwd.replace(swrd[i], qwrd[i])
+    }
     return passwd
-    
+}

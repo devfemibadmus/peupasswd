@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Peupasswd | Advanced Password Security Software</title>
+        <meta http-equiv="Expires" content="0" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+        <!-- App Styling -->
+        <link rel="icon" href="p/peupasswd.png">
+        <link rel="stylesheet" href="p/peupasswd.css" media="screen"/>
+   
+        <!-- App Scripting -->
+        <script class="u-script" type="text/javascript" src="p/peupasswd.js" defer=""></script>
+    
+    </head>
+    <body>
+      <div class="all">
+        <div class="container first">
+          <h1 class="peupasswd"><strong>Peupasswd</strong> Advanced Password Security Software</h1>
+          <p><a href="https://github.com/blackstackhub/Peupasswd" class="peupasswd">Peupasswd</a> is an advanced password security software written in python use in generating unique password for each of each service i.e you can generate special password for each of your social media or services with just one master password; see also <a href="https://github.com/kcubeterm/neupasswd">neupasswd</a></p>
+    
+          <h2>How It Works</h1>
+          <p><a href="https://github.com/blackstackhub/Peupasswd" class="peupasswd">Peupasswd</a> takes in a master password, the service name you wanna use the password for and the length of the password u want(never worry about the length you can choose as much as possible you dont need to cram it). Then it encrypt the master password in a way you can nerver guess of. Also you can retrieve/check ur passwordagain by doing same way.</p>
+    
+          <h2>Instructions:-</h2>
+          <li>Go <a href="#Peupasswd">here.</a></li>
+          <li>Create a master password in your brain.</li>
+          <li>Enter the master password.</li>
+          <li>Enter the service name <span class="note">note: you will need this when trying to check/retrieve password</span>.</li>
+          <li>Enter the length you want ur password to be.</li>
+          <li>Now click generate to generate the unique password. you can always generate the same password later by simply giving the same master password and service name. but no one could generate the same password as long as you dont share your master password to anyone. this is why I call it Advanced Password Security Software.</li>
+        </div>
+        <div class="container" id="peupasswd">
+          <h1 class="peupasswd"><strong>Peupasswd</strong> Advanced Password Security Software</h1>
+          <form name="myForm" autocomplete="off" id="form">
+            <input type="text" name="password" id="mpass" placeholder="Master password"/>
+
+            <input type="text" name="service" id="service" placeholder="Service Name e.g instagram"/>
+
+            <input type="number" name="plength" id="length" value="12" min="5" max="20" required/>
+
+            <input type="submit" name="submit" value="Generate"/>
+          </form>
+          <a><p>Peupasswd: <span style="color: red; text-decoration:underline;font-style:italic;" id="result"></span></p></a>
+        </div>
+      </div>
+      <script>
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          var datas = []
+          for (const [name,value] of data) {
+            datas.push(value)
+          }
+          document.getElementById("result").innerHTML = peupasswd(datas[0], datas[1], datas[2]);
+        })
+      </script>     
+    </body>
+</html>
