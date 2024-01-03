@@ -20,5 +20,5 @@ print(peupasswd("master password", "instagram", 12))
 
 ## Running on web
 ```
-https://blackstackhub.github.io/peupasswd/
+https://devfemibadmus.github.io/peupasswd/
 ```
